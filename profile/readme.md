@@ -10,7 +10,7 @@ This MSI directory contains nearly all software, data, and results related to th
 
 The work in the molecular diagnostics lab (MDL) includes running the following NGS analysis pipelines:
 
-- Inherited disease [germline](https://github.umn.edu/smunro/germline_unified) panels (SNVs, indels): germline_unified_v1.0
+- Inherited disease [germline](https://github.umn.edu/clinicalmdl/germline_pipeline) panels (SNVs, indels): germline_unified_v1.0
 - Inherited disease CNV: [cnv_aws_v3_cnvrf](https://github.umn.edu/clinicalmdl/hadoop-cnv-msi)
 - Inherited disease (PMS2-specific): pms2_cnv_aws_v3_cnvrf
 - Whole genome ([SNVs, Indels](https://github.umn.edu/clinicalmdl/clia_wgs_exome)): wgs_exome
