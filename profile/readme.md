@@ -1,19 +1,8 @@
-# The `umn-msi-mdl` GitHub Organization
-
 ## Purpose
 
 The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics analysts at the University to Minnesota Supercomputing Institute (MSI) to develop NGS-based clinical pipelines for germline and somatic variant calling. All pipelines, software, and resources, are tracked using this organization. You can learn more about the bioinformatics team here: [`umn-msi-lmnp`](https://github.com/umn-msi-lmnp).
 
-
-This MSI directory contains nearly all software, data, and results related to the MDL:
-
-```
-/home/clinicalmdl/shared
-```
-
 ## Pipelines
-
-The current MDL analysis pipelines:
 
 - Inherited disease gene panel:
 	- [`germline_unified_v1.0`](https://github.umn.edu/clinicalmdl/germline_pipeline) SNVs, indels
