@@ -1,3 +1,3 @@
-# clinicalmdl GitHub organization profile
+# mdl GitHub organization profile
 
-If you place a readme.md file, within a profile/ dir and sync this repo to GitHub, the contents of the readme is displayed on the GitHub account home page.
+This repo exists to host a GitHub Profile readme file. Place a readme.md file within a `profile/` dir, and sync this repo to GitHub. The contents of that readme is displayed on the GitHub account home page.
