@@ -11,7 +11,7 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 	- `pms2_cnv_aws_v3_cnvrf` PMS2-specific
 	eflex analysis
 - Whole genome sequencing (WGS):
-	- [`wgs_exome_v1.0_with_mtDNA_variant_calling`](https://github.com/umn-msi-mdl/clia_wgs_exome) 
+	- [`wgs_exome_v1.0_with_mtDNA_variant_calling`](https://github.com/umn-msi-mdl/clia_wgs) 
 	- [`wgs_sv`](https://github.com/umn-msi-mdl/clia_wgs_sv)
 - Somatic disease gene panel:
 	- [`clia_hybcap`](https://github.com/umn-msi-mdl/clia_hybcap) SNVs, indels, CNV, MSI, TMB
