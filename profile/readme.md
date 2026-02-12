@@ -9,15 +9,14 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
     - [clia_qc](https://github.com/umn-msi-mdl/clia_qc) Germline QC and CNV matches
 	- [`wgs_exome_reflex_v1`](https://github.com/umn-msi-mdl/wgs_exome_reflex_v1) Germline reflex analysis
 	- [`cnv_aws_v3_cnvrf`](https://github.com/umn-msi-mdl/hadoop-cnv-msi) CNV
-	- `pms2_cnv_aws_v3_cnvrf` PMS2-specific
-	eflex analysis
+	- `pms2_cnv_aws_v3_cnvrf` PMS2-specific reflex analysis
 - Whole genome sequencing (WGS):
-	- [`wgs_exome_v1.0_with_mtDNA_variant_calling`](https://github.com/umn-msi-mdl/clia_wgs) 
-	- [`wgs_sv`](https://github.com/umn-msi-mdl/clia_wgs_sv)
+	- [`wgs_exome_v1.0_with_mtDNA_variant_calling`](https://github.com/umn-msi-mdl/clia_wgs) WGS: SNVs, indels
+	- [`wgs_sv`](https://github.com/umn-msi-mdl/clia_wgs_sv) WGS: SVs
 - Somatic disease gene panel:
 	- [`clia_hybcap`](https://github.com/umn-msi-mdl/clia_hybcap) SNVs, indels, CNV, MSI, TMB
 - Pharmacogenomics:
-	- [`clia_pgx`](https://github.com/umn-msi-mdl/clia_pgx)
+	- [`clia_pgx`](https://github.com/umn-msi-mdl/clia_pgx) Star allele calling for 31 genes
 
 
 ## Other 
