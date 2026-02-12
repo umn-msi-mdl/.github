@@ -6,6 +6,7 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 
 - Inherited disease gene panel:
 	- [`germline_unified_v1.0`](https://github.com/umn-msi-mdl/germline_pipeline) SNVs, indels
+    - [clia_qc](https://github.com/umn-msi-mdl/clia_qc) Germline QC and CNV matches
 	- [`wgs_exome_reflex_v1`](https://github.com/umn-msi-mdl/wgs_exome_reflex_v1) Germline reflex analysis
 	- [`cnv_aws_v3_cnvrf`](https://github.com/umn-msi-mdl/hadoop-cnv-msi) CNV
 	- `pms2_cnv_aws_v3_cnvrf` PMS2-specific
@@ -20,22 +21,9 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 
 
 ## Other 
-We develop these pipelines using an isolated set of software using [conda environments](https://github.com/umn-msi-mdl/clia_conda), [custom built tools](https://github.com/umn-msi-mdl/clia_tools), and manually maintained [resource](https://github.com/umn-msi-mdl/resources) files.
 
-We also coordinate the [transfer of data](https://github.com/umn-msi-mdl/clia_transfer) between MSI and Fairview. FASTQs are generated for [NovaSeq](https://github.com/umn-msi-mdl/clia_bcl2fastq) and [AVITI](https://github.com/umn-msi-mdl/clia_bases2fastq) run dirs.
-
-In addition, we facilitate [validation](https://github.com/umn-msi-mdl/mdlvalr) analysis, and maintain a set of [test data](https://github.com/umn-msi-mdl/data_test) for each pipeline. And keep records of how [validations were performed](https://github.com/umn-msi-mdl/validations). We also run [quality control](https://github.com/umn-msi-mdl/clia_qc) analysis.
-
-Important paths:
-
-```
-/home/clinicalmdl/shared/results
-/home/clinicalmdl/shared/results_test
-/home/clinicalmdl/shared/analysis
-/home/clinicalmdl/shared/resources
-/home/clinicalmdl/shared/validations
-/home/clinicalmdl/shared/transfers
-/home/clinicalmdl/shared/data_test/
-/home/clinicalmdl/shared/data_release/
-```
+- [clia_transfer](https://github.com/umn-msi-mdl/clia_transfer) Automated transfers between MSI & MDL
+- [clia_bcl2fastq](https://github.com/umn-msi-mdl/clia_bcl2fastq) NovaSeq fastqs
+- [clia_bases2fastq](https://github.com/umn-msi-mdl/clia_bases2fastq) AVITI fastqs
+- [mdlvalr](https://github.com/umn-msi-mdl/mdlvalr) Concordance and validation analysis
 
