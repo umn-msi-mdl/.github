@@ -7,7 +7,7 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 ## Pipelines
 
 - Inherited disease gene panel:
-	- [`germline_unified_v1.0`](https://github.com/umn-msi-mdl/germline_pipeline) SNVs, indels
+	- [`clia_germline`](https://github.com/umn-msi-mdl/clia_germline) SNVs, indels
     - [`clia_qc`](https://github.com/umn-msi-mdl/clia_qc) Germline QC and CNV matches
 	- [`wgs_exome_reflex_v1`](https://github.com/umn-msi-mdl/wgs_exome_reflex_v1) Germline reflex analysis
 	- [`cnv_aws_v3_cnvrf`](https://github.com/umn-msi-mdl/hadoop-cnv-msi) CNV
