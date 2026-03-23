@@ -9,12 +9,13 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 - Inherited disease gene panel:
 	- [`clia_germline`](https://github.com/umn-msi-mdl/clia_germline) SNVs, indels
     - [`clia_qc`](https://github.com/umn-msi-mdl/clia_qc) Germline QC and CNV matches
-	- [`wgs_exome_reflex_v1`](https://github.com/umn-msi-mdl/wgs_exome_reflex_v1) Germline reflex analysis
 	- [`cnv_aws_v3_cnvrf`](https://github.com/umn-msi-mdl/hadoop-cnv-msi) CNV
 	- `pms2_cnv_aws_v3_cnvrf` PMS2-specific reflex analysis
+    - `pms2_pipeline_v1.1` Long-range PCR analysis for PMS2/PMS2CL
 - Whole genome sequencing (WGS):
-	- [`wgs_exome_v1.0_with_mtDNA_variant_calling`](https://github.com/umn-msi-mdl/clia_wgs) WGS: SNVs, indels
-	- [`wgs_sv`](https://github.com/umn-msi-mdl/clia_wgs_sv) WGS: SVs
+	- [`clia_wgs`](https://github.com/umn-msi-mdl/clia_wgs) WGS: SNVs, indels, SV, and reflex gene panels
+	- [`clia_wgs_aws`](https://github.com/umn-msi-mdl/clia_wgs_aws) WGS: SNVs, indels, SV, and reflex gene panels
+	- [`clia_wgs_ont`](https://github.com/umn-msi-mdl/clia_wgs_ont) Nanopore long read WGS: SNVs, indels, SV, and reflex gene panels
 - Somatic disease gene panel:
 	- [`clia_oncology`](https://github.com/umn-msi-mdl/clia_oncology) SNVs, indels, CNV, MSI, TMB
 - Pharmacogenomics:
