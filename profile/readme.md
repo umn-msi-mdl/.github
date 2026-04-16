@@ -11,7 +11,7 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
     - [`clia_qc`](https://github.com/umn-msi-mdl/clia_qc) Germline QC and CNV matches
 	- [`cnv_aws_v3_cnvrf`](https://github.com/umn-msi-mdl/hadoop-cnv-msi) CNV
 	- `pms2_cnv_aws_v3_cnvrf` PMS2-specific reflex analysis
-    - `pms2_pipeline_v1.1` Long-range PCR analysis for PMS2/PMS2CL
+    - [`clia_pms2`](https://github.com/umn-msi-mdl/clia_pms2) Long-range PCR analysis for PMS2/PMS2CL
 - Whole genome sequencing (WGS):
 	- [`clia_wgs`](https://github.com/umn-msi-mdl/clia_wgs) WGS: SNVs, indels, SV, and reflex gene panels
 	- [`clia_wgs_aws`](https://github.com/umn-msi-mdl/clia_wgs_aws) WGS: SNVs, indels, SV, and reflex gene panels
