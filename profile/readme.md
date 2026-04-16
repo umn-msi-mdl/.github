@@ -7,25 +7,25 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 ## Pipelines
 
 - Inherited disease gene panel:
-	- [`clia_germline`](https://github.com/umn-msi-mdl/clia_germline) SNVs, indels
+	- [`clia_germline`](https://github.com/umn-msi-mdl/clia_germline) SNVs and indels
     - [`clia_qc`](https://github.com/umn-msi-mdl/clia_qc) Germline QC and CNV matches
 	- [`cnv_aws_v3_cnvrf`](https://github.com/umn-msi-mdl/hadoop-cnv-msi) CNV
-	- `pms2_cnv_aws_v3_cnvrf` PMS2-specific reflex analysis
-    - [`clia_pms2`](https://github.com/umn-msi-mdl/clia_pms2) Long-range PCR analysis for PMS2/PMS2CL
+	- `pms2_cnv_aws_v3_cnvrf` PMS2/PMS2CL-specific CNV
+    - [`clia_pms2`](https://github.com/umn-msi-mdl/clia_pms2) Sequencing analysis of long-range PCR for PMS2/PMS2CL
 - Whole genome sequencing (WGS):
 	- [`clia_wgs`](https://github.com/umn-msi-mdl/clia_wgs) WGS: SNVs, indels, SV, and reflex gene panels
 	- [`clia_wgs_aws`](https://github.com/umn-msi-mdl/clia_wgs_aws) WGS: SNVs, indels, SV, and reflex gene panels
 	- [`clia_wgs_ont`](https://github.com/umn-msi-mdl/clia_wgs_ont) Nanopore long read WGS: SNVs, indels, SV, and reflex gene panels
 - Somatic disease gene panel:
-	- [`clia_oncology`](https://github.com/umn-msi-mdl/clia_oncology) SNVs, indels, CNV, MSI, TMB
+	- [`clia_oncology`](https://github.com/umn-msi-mdl/clia_oncology) SNVs, indels, CNV, MSI, and TMB
 - Pharmacogenomics:
 	- [`clia_pgx`](https://github.com/umn-msi-mdl/clia_pgx) Star allele calling for 31 genes
 
 
 ## Other 
 
-- [`clia_transfer`](https://github.com/umn-msi-mdl/clia_transfer) Automated transfers between MSI & MDL
-- [`clia_bcl2fastq`](https://github.com/umn-msi-mdl/clia_bcl2fastq) NovaSeq fastqs
-- [`clia_bases2fastq`](https://github.com/umn-msi-mdl/clia_bases2fastq) AVITI fastqs
-- [`mdlvalr`](https://github.com/umn-msi-mdl/mdlvalr) Concordance and validation analysis
+- [`clia_transfer`](https://github.com/umn-msi-mdl/clia_transfer) Automated transfers between MSI and MDL
+- [`clia_bcl2fastq`](https://github.com/umn-msi-mdl/clia_bcl2fastq) NovaSeq demultiplexing and fastq generation
+- [`clia_bases2fastq`](https://github.com/umn-msi-mdl/clia_bases2fastq) AVITI demultiplexing and fastq generation
+- [`mdlvalr`](https://github.com/umn-msi-mdl/mdlvalr) Concordance and validation analysis R package
 
