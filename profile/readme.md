@@ -27,5 +27,6 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 - [`clia_transfer`](https://github.com/umn-msi-mdl/clia_transfer) Automated transfers between MSI and MDL
 - [`clia_bcl2fastq`](https://github.com/umn-msi-mdl/clia_bcl2fastq) NovaSeq demultiplexing and fastq generation
 - [`clia_bases2fastq`](https://github.com/umn-msi-mdl/clia_bases2fastq) AVITI demultiplexing and fastq generation
-- [`mdlvalr`](https://github.com/umn-msi-mdl/mdlvalr) Concordance and validation analysis R package
+- [`validations`](https://github.com/umn-msi-mdl/validations) Concordance and validation projects
+- [`mdlvalr`](https://github.com/umn-msi-mdl/mdlvalr) R package used for validations
 
