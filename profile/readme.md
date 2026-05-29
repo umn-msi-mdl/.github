@@ -9,15 +9,16 @@ The Fairview Molecular Diagnostic Lab (MDL) collaborates with bioinformatics ana
 - Inherited disease gene panel:
 	- [`clia_germline`](https://github.com/umn-msi-mdl/clia_germline) SNVs and indels
     - [`clia_qc`](https://github.com/umn-msi-mdl/clia_qc) Germline QC and CNV matches
-	- [`clia_cnv`](https://github.com/umn-msi-mdl/clia_cnv) standard CNV, and PMS2/PMS2CL-specific CNV
-    - [`clia_pms2`](https://github.com/umn-msi-mdl/clia_pms2) Sequencing analysis of long-range PCR for PMS2/PMS2CL
+	- [`clia_cnv`](https://github.com/umn-msi-mdl/clia_cnv) Standard CNV and PMS2/PMS2CL-specific CNV
+- Sequencing analysis of long-range PCR for PMS2
+    - [`clia_pms2`](https://github.com/umn-msi-mdl/clia_pms2)
 - Whole genome sequencing (WGS):
 	- [`clia_wgs`](https://github.com/umn-msi-mdl/clia_wgs) WGS: SNVs, indels, SV, and reflex gene panels
 	- [`clia_wgs_aws`](https://github.com/umn-msi-mdl/clia_wgs_aws) WGS: SNVs, indels, SV, and reflex gene panels
 	- [`clia_wgs_ont`](https://github.com/umn-msi-mdl/clia_wgs_ont) Nanopore long read WGS: SNVs, indels, SV, and reflex gene panels
 - Somatic disease gene panel:
 	- [`clia_oncology`](https://github.com/umn-msi-mdl/clia_oncology) SNVs, indels, CNV, MSI, and TMB
-- Pharmacogenomics:
+- Pharmacogenomics gene panel:
 	- [`clia_pgx`](https://github.com/umn-msi-mdl/clia_pgx) Star allele calling for 31 genes
 
 
